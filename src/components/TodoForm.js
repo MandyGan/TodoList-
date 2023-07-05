@@ -16,7 +16,7 @@ export const TodoForm = ({ addTodo }) => {
     <ListItem>
       <form onSubmit={handleSubmit}>
         <Input
-          placeholder="Type in here…"
+          placeholder="Add todo item"
           variant="outlined"
           color="primary"
           onChange={handleChange}
@@ -27,7 +27,7 @@ export const TodoForm = ({ addTodo }) => {
               color="primary"
               type="submit"
               sx={{ borderTopLeftRadius: 0, borderBottomLeftRadius: 0 }}>
-              Add
+              submit
             </Button>
           }
         />
